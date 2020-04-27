@@ -1,3 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .nav {
   background-color: rgb(3, 169, 244);
+  width: 98%;
+  height: 100px;
+  margin-left: 15px;
+  margin-top: 10px;
+  display: flex;
+}
+.logo {
+  margin-top: 10px;
+  margin-left: 10px;
+  flex: 5;
+}
+h2.text {
+  color: #5e35b1;
+  font-size: 46px;
+  font-family: "Dancing Script", cursive;
+}
+.text {
+  font-size: 36px;
+  color: #ffffff;
+}
+a.text {
+  text-decoration: none;
+  margin-right: 15px;
+}
+.menu {
+  flex: 2;
+}
+h1 {
+  color: black;
+  text-align: center;
+}
+.grid {
+  display: grid;
+  grid-column-gap: 5px;
+  grid-column: 2;
+  grid-row: 1;
+}
+.left {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  height: 100%;
+  width: 98%;
+  background-color: aquamarine;
+}
+.right {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  height: 100%;
+  width: 98%;
+  background-color: aqua;
+}
+.image {
+  margin-left: 10px;
+  height: 205px;
+  width: 320px;
+  background-color: burlywood;
 }
