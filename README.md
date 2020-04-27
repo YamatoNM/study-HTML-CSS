@@ -1,2 +1,2 @@
-# study-HTML-SCC
+# study-HTML-CSS
 HTML for beginer
